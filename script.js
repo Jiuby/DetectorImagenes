@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const imgElement = document.getElementById('previewImage');
 
-    const apiKey = 'AIzaSyDAdLZxa2GKqTexDGKc0hN3R585dhPIZGs'; // Reemplaza 'TU_CLAVE_DE_API' con tu clave de API de Google Cloud Vision
+    const apiKey = 'TU_CLAVE_DE_API'; // Reemplaza 'TU_CLAVE_DE_API' con tu clave de API de Google Cloud Vision
 
     // Configura la solicitud a la API de Google Cloud Vision
     const apiUrl = `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`;
